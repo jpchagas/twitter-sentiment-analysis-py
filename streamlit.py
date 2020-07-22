@@ -23,7 +23,7 @@ from functions import *
 # Extração de tweets com a plavra input
 
 
-@st.cache
+#@st.cache
 def load_data(p_input):
     df = extract_data(p_input)
     return df
