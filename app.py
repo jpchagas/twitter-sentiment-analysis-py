@@ -62,10 +62,10 @@ def main():
 
 
     st.sidebar.markdown(" ")
-    st.sidebar.markdown(" ")
+    st.sidebar.markdown("**• Documentation:** [Download](https://bit.ly/39YuSuv)")
     st.sidebar.markdown(
         """ Definimos uma busca dos **500 tweets** mais recentes para análise!""")
-    st.sidebar.markdown(""" ## Insira uma palavra para buscar: """)
+    st.sidebar.markdown(""" ## Escreva o que quer buscar: """)
 
     # word input
     input_word = st.sidebar.text_input('')
@@ -77,10 +77,10 @@ def main():
     check3 = st.sidebar.checkbox('As palavras mais usadas')
     check4 = st.sidebar.checkbox('As hashtags mais usada e suas relações')
 
-
     #### LINKEDINS
 
-    st.sidebar.markdown('**Hey! Dá uma olhada no nosso time:**')
+    st.sidebar.markdown('**Hey! Linkedin do nosso time:**')
+
     # st.sidebar.markdown('')
     if st.sidebar.button('Denis Dinardi'):
         denis = 'https://www.linkedin.com/in/denisdinardi/'
@@ -97,7 +97,6 @@ def main():
     if st.sidebar.button('Paulo Lima'):
         paulo = 'https://www.linkedin.com/in/dspaulolima'
         wb.open_new_tab(paulo)
-        
 
     # FIM SIDE BAR
 
